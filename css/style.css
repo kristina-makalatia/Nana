@@ -132,10 +132,11 @@
 .about-text1{
 	color: #F9C402;
 	background-color: black;
-	font-size: 60px;
+	font-size: 47px;
 	font-family: 'Montserrat', sans-serif;
 	text-align: center;	
-	padding:8px;		
+	padding:8px;
+	text-transform: uppercase;		
 }
 .h3{
 	font-size: 30px;
@@ -385,7 +386,26 @@
 }
 .faq-text{
 	margin-top:40px;
-}	
+}
+
+/*WHERE TO BUY*/
+.adress-where{
+	margin-bottom: 30px;
+	color: #535353;
+	font-size: 16px;
+}
+.where-to-buy{
+	color: #F9C402;
+	background-color: #000000;
+	font-size: 20px;
+	margin-bottom: 15px;
+	padding: 5px 8px;
+}
+.where-title{
+	font-size:25px;
+    color: #000000;
+    margin-bottom: 15px;
+}
 
 /*MEDIA-RESPONSIVE*/
 @media(max-width: 1125px){
@@ -442,6 +462,9 @@
 	}
 	.text{
 	font-size: 60px;
+    }
+    .where{
+    	flex-wrap: wrap;
     }
 }
 @media(max-width:600px){
